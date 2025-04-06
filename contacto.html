@@ -4,34 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="museos.html">Museos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h2>Contacto</h2>
-    <form action="#" method="POST">
-    <label for="nombre">Nombre</label>
-    <input type="text" id="nombre " required/><br/>
-    <label for="email">Correo Electrónico</label>
-    <input type="email" id="correo "required/><br/>
-    <label for="codigo postal">Codigo Postal</label>
-    <input type="number" id="codigo postal" required/><br/>
-    <label for="telefono">Telefono</label>
-    <input type="number" id="telefono "><br/>
-    <label for="documento">Documento</label>
-    <input type="number" id="documento " required/><br/>
-    <label for="asunto">Asunto</label>
-    <input type="text" id="asunto "><br/>
-    <label for="Mensaje">Mensaje(opcional)</label>
-    <input type="text" id="mensaje"><br/>
-    <input type="submit" value="Enviar">
-
+<body class="contac">
+    <div>  
+        <section class="registro">
+            <h4>Contacto</h4>
+            <input class="control" type="text" name="nombres "id="nombres" placeholder="Ingrese nombre y apellido">
+            <input class="control" type="email" name="correo" id="correo" placeholder="Correo">
+            <input class="control" type="number" name="telefono" id="telefono" placeholder="Telefono">
+            <input class="control" type="number" name="documento" id="documento " placeholder="Documento">
+            <p>Estoy de acuerdo con los <a href="#">Terminos y condiciones</a></p>
+            <input class="boton" type="submit" value="Enviar">
+            <p><a class="inicio" href="index.html"> Volver a Inicio</a></p>
+        </section> 
+    </div>
 </body>
 </html>
