@@ -246,3 +246,17 @@ body {
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* muestra mensaje al enviar los datos*/
+.mensaje-gracias {
+    display: none;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  :target.mensaje-gracias {
+    display: block;
+  }
+  

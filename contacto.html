@@ -10,13 +10,26 @@
     <div>  
         <section class="registro">
             <h4>Contacto</h4>
+            
+            <form action="#gracias" method="get">
+
             <input class="control" type="text" name="nombres "id="nombres" placeholder="Ingrese nombre y apellido">
             <input class="control" type="email" name="correo" id="correo" placeholder="Correo">
             <input class="control" type="text" name="telefono" id="telefono" placeholder="Telefono">
             <input class="control" type="text" name="documento" id="documento " placeholder="Documento">
-            <p>Estoy de acuerdo con los <a href="#">Terminos y condiciones</a></p>
+            
+            <label>
+                <input type="checkbox" name="terminos" required>
+                Estoy de acuerdo con los <a href="#">Términos y condiciones</a>
+            </label>
+
             <input class="boton" type="submit" value="Enviar">
-            <p><a class="inicio" href="index.html"> Volver a Inicio</a></p>
+           </form>
+           <div id="gracias" class="mensaje-gracias">
+            ¡Gracias por contactarte! Te responderemos pronto.
+          </div>
+          
+           <p><a class="inicio" href="index.html"> Volver a Inicio</a></p>
         </section> 
     </div>
 </body>
