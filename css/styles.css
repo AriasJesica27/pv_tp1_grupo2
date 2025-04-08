@@ -3,6 +3,7 @@ body {
     background-color: #fffaf2;
     color: #333;
     line-height: 1.6;
+    
 }
 
 /* Usando un ID */
@@ -97,6 +98,14 @@ body {
 .articulo p {
     margin-bottom: 15px;
 }
+/*imagen museo*/
+.foto{
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+}
 
 /* Imagen */
 .imagen-cultura {
@@ -127,7 +136,7 @@ body {
     background: #8dc2fa;
     margin: 0;
     padding: 20px;
-    
+    background-image: url(7colores.jpg);
 }
 
 .contenedor {
@@ -148,7 +157,7 @@ body {
 }
 .Tarjeta2 {
     justify-content: center;
-  background: darkgreen;
+  background: #d58861;
   color:cyan;
   border-radius: 15px;
   padding: 30px;
@@ -161,12 +170,13 @@ body {
 }
 
 .contenedor .tarjeta:nth-child(odd) {
-    background: #ff41b4;
+    background: #d58861;
+    color: #000;
 }
 
 .contenedor .tarjeta:nth-child(even) {
-    background: #000;
-    color: aqua;
+    background: rgb(89, 159, 221);
+    color: #000;
 }
 
 .tarjeta h2 {
@@ -192,7 +202,7 @@ body {
 
 .registro{
     width: 400px;
-    background: #24374a;
+    background: #2f4760;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -222,7 +232,7 @@ body {
 }    
 .control{
     width: 95%;
-    background: #24303c;
+    background: #2c3b4a;
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 16px;
